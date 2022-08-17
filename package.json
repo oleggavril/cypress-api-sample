@@ -1,0 +1,29 @@
+{
+  "name": "cypress-api-sample",
+  "version": "1.0.0",
+  "description": "sample cypress api test",
+  "main": "none",
+  "scripts": {
+    "test": "npx cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/axgusan/cypress-api-sample.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/axgusan/cypress-api-sample/issues"
+  },
+  "homepage": "https://github.com/axgusan/cypress-api-sample#readme",
+  "devDependencies": {
+    "@types/jest": "^28.1.6",
+    "cypress": "^10.6.0",
+    "jest": "^28.1.3",
+    "mocha": "^10.0.0",
+    "mocha-junit-reporter": "^2.0.2"
+  },
+  "dependencies": {
+    "typescript": "^4.7.4"
+  }
+}
