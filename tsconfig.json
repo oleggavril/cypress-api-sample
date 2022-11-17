@@ -1,14 +1,14 @@
 {
   "compilerOptions": {
-    "target": "es2020",
-    "lib": ["es2020"],
-    "types": ["cypress"],
+    "target": "es5",
+    "lib": ["es5", "dom"],
+    "types": ["cypress", "node"],
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "pretty": true,
-    "strict": true,
-    "noImplicitAny": true,
+    // "strict": true,
+    // "noImplicitAny": true,
     "baseUrl": "."
   },
-  "include": ["**/*.ts", "cypress.config.js"]
+  "include": ["**/*.ts", "cypress.config.ts"]
 }

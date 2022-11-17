@@ -1,5 +1,5 @@
 describe("Testing API Endpoints Using Cypress", () => {
-  it("Test GET Request", () => {
+  it(['tag1'],"Test GET Request", () => {
     cy.request("https://postman-echo.com/get").then((response) => {
         // cy.log(JSON.stringify(response, null, 4));
       expect(response.status).to.equal( 200);
