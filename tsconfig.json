@@ -10,5 +10,5 @@
     "noImplicitAny": true,
     "baseUrl": "."
   },
-  "include": ["**/*.ts"]
+  "include": ["**/*.ts", "cypress.config.js"]
 }
